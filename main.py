@@ -32,7 +32,7 @@ train_data_gen = train_image_generator.flow_from_directory(batch_size=TRAIN_SIZE
 val_data_gen = validation_image_generator.flow_from_directory(batch_size=TEST_SIZE,
                                                               directory=TEST_DIR,
                                                               target_size=(IMG_HEIGHT, IMG_WIDTH),
-                                                              class_mode='binary')
+                                                              class_mode='categorical')
 
 model = keras.Sequential([
     keras.layers.Conv2D(16, 3, padding='same', activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH, 3)),
