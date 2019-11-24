@@ -21,4 +21,3 @@ for entry in prediction:
     lst.reverse()
     for guess in lst:
         print(CLASS_NAMES[guess], entry[guess])
-
