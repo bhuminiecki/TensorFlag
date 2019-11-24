@@ -1,6 +1,6 @@
-import tensorflow as ts
-from tensorflow import keras
+import keras
 from keras.preprocessing.image import ImageDataGenerator
+from keras.optimizers import adam
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2 as cv
@@ -16,7 +16,12 @@ def generate_data(image):
 
 # CREATE DATA GENERATORS
 
-train_image_generator = ImageDataGenerator(rescale=1. / 255, rotation_range=45)
+train_image_generator = ImageDataGenerator(rescale=1. / 255,
+                                           rotation_range=45,
+                                           shear_range=0.2,
+                                           zoom_range=0.2,
+                                           fill_mode="constant"
+                                           )
 validation_image_generator = ImageDataGenerator(rescale=1. / 255)
 
 train_data_gen = train_image_generator.flow_from_directory(batch_size=TRAIN_SIZE,
@@ -42,15 +47,14 @@ model = keras.Sequential([
     keras.layers.MaxPooling2D(),
     keras.layers.Dropout(0.2),
     keras.layers.Flatten(),
-    keras.layers.Dense(128, activation="relu"),
-    keras.layers.Dense(128, activation="tanh"),
-    keras.layers.Dense(128, activation="selu"),
+    keras.layers.Dense(512, activation="relu"),
+    keras.layers.Dropout(0.1),
     keras.layers.Dense(28, activation="softmax")
 ])
 
 # COMPILE MODEL
 
-model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+model.compile(optimizer=adam(learning_rate=0.001, amsgrad=True), loss="sparse_categorical_crossentropy", metrics=["accuracy"])
 
 # TRAIN MODEL
 

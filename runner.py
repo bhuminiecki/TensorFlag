@@ -1,5 +1,4 @@
-import tensorflow as ts
-from tensorflow import keras
+import keras
 from keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 from config import IMG_HEIGHT, IMG_WIDTH, INPUT_DIR, INPUT_SIZE, CLASS_NAMES

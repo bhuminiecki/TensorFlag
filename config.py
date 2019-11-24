@@ -29,16 +29,15 @@ CLASS_NAMES = [
     "United Kingdom"
 ]
 
-IMG_HEIGHT = 150
-IMG_WIDTH = 150
-
-TRAIN_SIZE = 40
+IMG_HEIGHT = 250
+IMG_WIDTH = 250
+TRAIN_SIZE = 80
 TRAIN_DIR = "data/train"
 
-TEST_SIZE = 12
+TEST_SIZE = 24
 TEST_DIR = "data/test"
 
 INPUT_SIZE = 8
 INPUT_DIR = "data/input"
 
-EPOCHS = 50
+EPOCHS = 100
