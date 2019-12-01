@@ -35,7 +35,7 @@ IMG_WIDTH = 100
 TRAIN_SIZE = 85
 TRAIN_DIR = "data/train"
 
-TEST_SIZE = 24
+TEST_SIZE = 48
 TEST_DIR = "data/test"
 
 INPUT_SIZE = 8
