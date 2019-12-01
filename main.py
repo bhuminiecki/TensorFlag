@@ -41,16 +41,14 @@ val_data_gen = validation_image_generator.flow_from_directory(batch_size=TEST_SI
 model = keras.Sequential([
     keras.layers.Conv2D(16, 3, padding='same', activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH, 3)),
     keras.layers.MaxPooling2D(),
-    keras.layers.Dropout(0.1),
     keras.layers.Conv2D(32, 3, padding='same', activation='relu'),
     keras.layers.MaxPooling2D(),
     keras.layers.Conv2D(64, 3, padding='same', activation='relu'),
     keras.layers.MaxPooling2D(),
-    keras.layers.Dropout(0.1),
     keras.layers.Flatten(),
-    keras.layers.Dense(64, kernel_regularizer=regularizers.l2(0.001), activation="relu"),
+    keras.layers.Dense(64, activation="relu"),
     keras.layers.Dropout(0.1),
-    keras.layers.Dense(64, kernel_regularizer=regularizers.l2(0.001), activation="relu"),
+    keras.layers.Dense(32, activation="relu"),
     keras.layers.Dropout(0.1),
     keras.layers.Dense(28, activation="softmax")
 ])

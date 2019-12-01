@@ -29,9 +29,10 @@ CLASS_NAMES = [
     "United Kingdom"
 ]
 
-IMG_HEIGHT = 200
-IMG_WIDTH = 200
-TRAIN_SIZE = 80
+IMG_HEIGHT = 100
+IMG_WIDTH = 100
+
+TRAIN_SIZE = 85
 TRAIN_DIR = "data/train"
 
 TEST_SIZE = 24
@@ -40,4 +41,4 @@ TEST_DIR = "data/test"
 INPUT_SIZE = 8
 INPUT_DIR = "data/input"
 
-EPOCHS = 60
+EPOCHS = 100
