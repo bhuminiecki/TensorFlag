@@ -3,10 +3,10 @@ CLASS_NAMES = [
     "Belgium",
     "Bulgaria",
     "Croatia",
-    "Cyprus",
+#    "Cyprus",
     "Czech Republic",
     "Denmark",
-    "Estonia",
+#    "Estonia",
     "Finland",
     "France",
     "Germany",
@@ -14,16 +14,16 @@ CLASS_NAMES = [
     "Hungary",
     "Ireland",
     "Italy",
-    "Latvia",
+#    "Latvia",
     "Lithuania",
-    "Luxembourg",
+#    "Luxembourg",
     "Malta",
     "Netherlands",
     "Poland",
     "Portugal",
     "Romania ",
-    "Slovakia",
-    "Slovenia",
+#    "Slovakia",
+#    "Slovenia",
     "Spain",
     "Sweden",
     "United Kingdom"
@@ -32,10 +32,10 @@ CLASS_NAMES = [
 IMG_HEIGHT = 100
 IMG_WIDTH = 100
 
-TRAIN_SIZE = 85
+TRAIN_SIZE = 121
 TRAIN_DIR = "data/train"
 
-TEST_SIZE = 48
+TEST_SIZE = 66
 TEST_DIR = "data/test"
 
 INPUT_SIZE = 8
