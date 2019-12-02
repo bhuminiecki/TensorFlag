@@ -41,4 +41,4 @@ TEST_DIR = "data/test"
 INPUT_SIZE = 8
 INPUT_DIR = "data/input"
 
-EPOCHS = 100
+EPOCHS = 70
