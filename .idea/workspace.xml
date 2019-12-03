@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c79959-cd11-4391-b631-a6f7f2fefb13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/240_F_269534072.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/425355_134155_768_518_jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/almanbayrak.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/british_Flag.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/deluxe-flagpoles_c164f89e-0315-419c-9eea-8c4da02417ae_800x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/indeks.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/reino-unido-uk-bandera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/data/zhgfds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test/Austria/DrAut-Autriche-Bernard-Kauffman-1200x803.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train/Austria/vienna-austria-innovation-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/train/Austria/vienna-austria-innovation-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train/Sweden/190090190-swedish-flag-national-color-waving-sway-national-flag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/train/Sweden/190090190-swedish-flag-national-color-waving-sway-national-flag.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train/Sweden/felumkeekdkjgexl4dd0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/train/Sweden/felumkeekdkjgexl4dd0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train/Sweden/thumbs_b_c_a1fd64c317b7cc4fcf54baeb805d18a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/train/Sweden/thumbs_b_c_a1fd64c317b7cc4fcf54baeb805d18a8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -77,10 +70,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/runner.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -243,7 +236,7 @@
       <updated>1574525593417</updated>
       <workItem from="1574525594636" duration="6303000" />
       <workItem from="1574555470391" duration="17128000" />
-      <workItem from="1575202008486" duration="16138000" />
+      <workItem from="1575202008486" duration="16989000" />
     </task>
     <task id="LOCAL-00001" summary="Changed type of validation">
       <created>1574525683899</created>
@@ -263,17 +256,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43607000" />
+    <option name="totallyTimeSpent" value="44458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33555555" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33555555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,13 +332,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/test/Czech/240_F_269534072.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/test/Sweden/18369142960_a44ac93073_b.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -411,7 +398,14 @@
     <entry file="file://$PROJECT_DIR$/runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
