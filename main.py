@@ -1,6 +1,6 @@
 import keras
 from keras.preprocessing.image import ImageDataGenerator
-from keras.optimizers import adam
+from keras.optimizers import adam, adadelta
 from keras import regularizers
 import numpy as np
 import matplotlib.pyplot as plt
@@ -52,12 +52,13 @@ model = keras.Sequential([
     keras.layers.Dropout(0.1),
     keras.layers.Dense(64, activation="relu"),
     keras.layers.Dropout(0.1),
-    keras.layers.Dense(28, activation="softmax")
+    keras.layers.Dense(24, activation="softmax")
 ])
 
 # COMPILE MODEL
 
-model.compile(optimizer=adam(learning_rate=0.001, amsgrad=True), loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+model.compile(optimizer=adam(learning_rate=0.001, amsgrad=True),
+              loss="sparse_categorical_crossentropy", metrics=["accuracy"])
 
 # TRAIN MODEL
 
@@ -111,6 +112,10 @@ for i in range(len(CLASS_NAMES)):
         text = ax.text(j, i, confused[i, j],
                        ha="center", va="center", color="w")
 
+ax.tick_params(axis='both', which='major', labelsize=10)
+ax.set_title("Confusion matrix")
+ax.set_ylabel('True label')
+ax.set_xlabel('Predicted label')
 fig.tight_layout()
 plt.show()
 
